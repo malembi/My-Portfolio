@@ -1,10 +1,8 @@
 /* -------------------mobile version-------------- */
 
 .body {
-
   width: 100%;
   margin: 0%;
-
   background-color: #e5e5e5;
 }
 
@@ -40,6 +38,10 @@
   height: 0.75rem;
 }
 
+.navlist {
+  display: none;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -52,7 +54,6 @@
   border-bottom-left-radius: 60px;
   position: absolute;
   top: 46px;
-
 }
 
 .greet {
@@ -140,7 +141,6 @@
   box-sizing: border-box;
   width: 23.44rem;
   margin-top: 690px;
-
 }
 
 .cards {
@@ -160,7 +160,6 @@
 .image {
   width: 18.44rem;
   height: 13.7rem;
-
 }
 
 .title {
@@ -285,7 +284,6 @@
 }
 
 .button:active {
-  opacity: 1;
   color: #fff;
   background-color: #2230d2;
 }
@@ -333,7 +331,7 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  margin: 0 0 0 -109px;
+  margin: -10px 0 0 0;
   text-decoration: none;
   color: #7f8cff;
 }
@@ -345,7 +343,7 @@
   justify-content: space-between;
   width: 200px;
   list-style: none;
-  margin: -10px 0 0 -150px;
+  margin: 20px 0 0 -40px;
 }
 
 .Button {
@@ -362,6 +360,7 @@
   color: #396df2;
   background-color: #fff;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .Button:hover {
@@ -735,14 +734,12 @@
 }
 
 .gint:hover {
-  opacity: 0.7;
   color: #fff;
   background-color: #fff;
   border: 1px solid #6070ff;
 }
 
 .gint:active {
-  opacity: 1;
   color: #fff;
   background-color: #789bf2;
   border: 1px solid #6070ff;
@@ -1119,13 +1116,11 @@
   }
 
   .button2:hover {
-    opacity: 0.2;
     color: #fff;
     background-color: #396df2;
   }
 
   .button2:active {
-    opacity: 1;
     color: #fff;
     background-color: #396df2;
   }
