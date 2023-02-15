@@ -256,6 +256,7 @@
 .button {
   box-sizing: border-box;
   border: 1px solid #7f8cff;
+  background-color: #fff;
   border-radius: 8px;
   padding: 12px;
   bottom: 10px;
@@ -353,6 +354,7 @@
   line-height: 24px;
   width: 138px;
   color: #396df2;
+  background-color: #fff;
   cursor: pointer;
 }
 
