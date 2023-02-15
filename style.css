@@ -255,7 +255,7 @@
 
 .button {
   box-sizing: border-box;
-  border: 1px solid #7F8CFF;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
   bottom: 10px;
@@ -273,7 +273,6 @@
 }
 
 .button:hover {
- 
   color: #fff;
   background-color: #6070ff;
 }
@@ -281,7 +280,7 @@
 .button:active {
   opacity: 1;
   color: #fff;
-  background-color: #2230D2;
+  background-color: #2230d2;
 }
 
 /* -------------about me------------------ */
