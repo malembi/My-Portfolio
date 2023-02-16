@@ -1344,8 +1344,9 @@
     height: 44.9rem;
     left: 75.34px;
     margin-top: 60px;
-    background-image: url(Images./cbg.png);
+    background-image: url(Images./cntct.png);
     background-size: 100%;
+    border: solid black 1px;
   }
 
   .contact-me {
