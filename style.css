@@ -2,8 +2,7 @@
 
 .body {
   margin: 0%;
-  height: 338.125rem;
-  width: 23.438rem;
+  width: 100%;
   background-color: #e5e5e5;
 }
 
@@ -39,8 +38,7 @@
 
 .nav-bar {
   margin: 20px;
-  width: 1.1rem;
-  height: 0.75rem;
+ 
 }
 
 .intro {
@@ -1346,7 +1344,6 @@
     margin-top: 60px;
     background-image: url(Images./cntct.png);
     background-size: 100%;
-    border: solid black 1px;
   }
 
   .contact-me {
