@@ -48,7 +48,7 @@
   background-color: #fff;
   border-bottom-left-radius: 60px;
   position: absolute;
-  top: 55px;
+  top: 48px;
 }
 
 .greet {
@@ -95,7 +95,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 170.17px;
-  height: 20px;
   flex: none;
   flex-grow: 0;
   list-style: none;
@@ -137,7 +136,8 @@
   box-sizing: border-box;
   height: 174.25rem;
   width: 23.44rem;
-  margin-top: -1137px;
+  margin-top: 720px;
+ 
 }
 
 .cards {
