@@ -1,10 +1,8 @@
 /*-------------------mobile version--------------*/
 
 .body {
-  display: grid;
-  grid-template-columns: auto;
-  height: 338.125rem;
-  width: 23.438rem;
+margin: 0%;
+  width: 100%;
   background-color: #E5E5E5;
 }
 
@@ -266,6 +264,7 @@ border-radius: 8px;
 .button {
   box-sizing: border-box;
   border: 1px solid #6070ff;
+  background-color: #fff;
   border-radius: 8px;
   padding: 12px;
   height: 3rem;
@@ -284,15 +283,13 @@ border-radius: 8px;
   color: #396df2;
 }
 .button:hover {
-  opacity: 0.2;
   color: #fff;
-  background-color: #396df2;
+  background-color: #6070ff;
 }
 
 .button:active {
-  opacity: 1;
   color: #fff;
-  background-color: #396df2;
+  background-color: #2230D2;
 }
 
  /*-------------about me------------------*/
@@ -364,20 +361,21 @@ border-radius: 8px;
   line-height: 24px;
   height: 24px;
   width: 138px;
+  background-color: #fff;
   color: #396df2;
   cursor: pointer;
 }
 .Button:hover {
-  opacity: 0.2;
   color: #fff;
-  background-color: #396df2;
+  background-color:#6070FF;
+  ;
   border: 1px solid #6070ff;
 }
 
 .Button:active {
-  opacity: 1;
   color: #fff;
-  background-color: #396df2;
+  background-color: #2230D2;
+  ;
   border: 1px solid #6070ff;
 }
 #resume {
@@ -764,10 +762,4 @@ border-radius: 8px;
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
-}
-
-/*--------------------DESKTOP VERSION---------------------*/
-
-@media (min-width: 768px){
-
 }
