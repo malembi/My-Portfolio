@@ -1,8 +1,8 @@
 /* -------------------mobile version-------------- */
 
 .body {
-  margin: 0%;
   width: 100%;
+  margin: 0%;
   background-color: #e5e5e5;
 }
 
@@ -13,7 +13,7 @@
   align-items: center;
   background-color: #fff;
   height: 3rem;
-  width: 23.438rem;
+  width: 100%;
 }
 
 .logo {
@@ -28,29 +28,30 @@
   text-decoration: none;
   margin: 20px;
   width: 4.75rem;
-  height: 1.25rem;
   color: #6070ff;
-}
-
-.navlist {
-  display: none;
+  height: 1.25rem;
 }
 
 .nav-bar {
   margin: 20px;
 }
 
+.navlist {
+  display: none;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 23.438rem;
+  width: 100%;
   height: 44.88rem;
   background-image: url('header-shapesmobile.png');
   background-color: #fff;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 60px;
   position: absolute;
-  top: 47px;
+  top: 46px;
 }
 
 .greet {
@@ -61,7 +62,7 @@
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  width: 20.44rem;
+  width: 327px;
   height: 9.37rem;
   margin: 20px;
   order: 0;
@@ -96,8 +97,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 10.6rem;
-  height: 1.25rem;
+  width: 170.17px;
   flex: none;
   flex-grow: 0;
   list-style: none;
@@ -137,13 +137,8 @@
   display: grid;
   grid-template-columns: 1fr;
   box-sizing: border-box;
-  height: 174.25rem;
   width: 23.44rem;
-  margin-top: 700px;
-}
-
-.Cards {
-  display: none;
+  margin-top: 690px;
 }
 
 .cards {
@@ -154,7 +149,6 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
-  height: 34.5rem;
   width: 20.44rem;
   margin: 70px 24px;
   gap: 12px;
@@ -164,16 +158,14 @@
 .image {
   width: 18.44rem;
   height: 13.7rem;
-  border-radius: 8px;
 }
 
 .title {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif, "Poppins";
   font-weight: 700;
   font-size: 32px;
   font-style: normal;
   width: 18.44rem;
-  height: 2.25rem;
   line-height: 44px;
   margin-top: 0;
   color: #172b4d;
@@ -182,7 +174,6 @@
 .frame {
   margin: -30px 0 0 -50px;
   width: 14.75rem;
-  height: 2rem;
   padding: 8px;
 }
 
@@ -193,7 +184,6 @@
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  height: 4.75rem;
   width: 18.44rem;
   margin-top: 0%;
 }
@@ -205,8 +195,6 @@
   list-style: none;
   margin: -20px 0 0 -90px;
   padding: 10px;
-  width: 12.68rem;
-  height: 1.5rem;
   gap: 8px;
 }
 
@@ -216,8 +204,6 @@
   align-items: center;
   background-color: #ebebff;
   color: #6070ff;
-  width: 3.3rem;
-  height: 1.5rem;
   border-radius: 8px;
   padding: 4px 12px;
 }
@@ -227,8 +213,6 @@
   font-style: normal;
   font-size: 12px;
   font-weight: 500;
-  height: 1rem;
-  width: 1.8rem;
   letter-spacing: 0.03rem;
   line-height: 16px;
   color: #6070ff;
@@ -241,8 +225,6 @@
   border-radius: 8px;
   background-color: #ebebff;
   padding: 4px 12px;
-  width: 2.8rem;
-  height: 1.5rem;
 }
 
 #Css {
@@ -253,8 +235,6 @@
   line-height: 16px;
   letter-spacing: 0.03rem;
   color: #6070ff;
-  height: 1rem;
-  width: 1.3rem;
 }
 
 .Js {
@@ -264,8 +244,6 @@
   background-color: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-  height: 1.5rem;
-  width: 5.6rem;
 }
 
 #Js {
@@ -275,8 +253,6 @@
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03rem;
-  height: 1rem;
-  width: 4.06rem;
   color: #6070ff;
 }
 
@@ -286,8 +262,6 @@
   background-color: #fff;
   border-radius: 8px;
   padding: 12px;
-  height: 3rem;
-  width: 7.94rem;
   bottom: 10px;
   margin-left: -170px;
   gap: 10px;
@@ -321,7 +295,7 @@
   position: absolute;
   background-color: #fff;
   border-top-right-radius: 50px;
-  width: 23.44rem;
+  width: 100%;
   height: 79.95rem;
   top: 3565px;
   gap: 24px;
@@ -337,7 +311,6 @@
   line-height: 52px;
   color: #172b4d;
   width: 20.44rem;
-  height: 6.3rem;
 }
 
 .text-2 {
@@ -346,7 +319,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  height: 7.13rem;
   width: 20.44rem;
   margin-top: -20px;
   color: #344563;
@@ -357,7 +329,7 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  margin-top: 60px;
+  margin: -10px 0 0 0;
   text-decoration: none;
   color: #7f8cff;
 }
@@ -367,10 +339,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 12.5rem;
-  height: 2.5rem;
-  margin-left: -30px;
+  width: 200px;
   list-style: none;
+  margin: 20px 0 0 -40px;
 }
 
 .Button {
@@ -384,10 +355,11 @@
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
-  height: 1.5rem;
-  width: 8.6rem;
+  width: 138px;
   color: #396df2;
+  background-color: #fff;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .Button:hover {
@@ -413,7 +385,6 @@
   margin-left: 0;
   gap: 10px;
   width: 10.3rem;
-  height: 3rem;
 }
 
 /* ------------languages----------- */
@@ -437,7 +408,6 @@
   font-style: normal;
   line-height: 24px;
   position: absolute;
-  height: 1.5rem;
   margin-left: -220px;
   color: #000;
 }
@@ -445,7 +415,6 @@
 .down {
   position: absolute;
   width: 0.87rem;
-  height: 0.5rem;
   left: 285px;
   margin-top: 30px;
   color: #5e6c84;
@@ -481,7 +450,6 @@
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  height: 1.5rem;
   left: 70px;
   top: 10px;
   color: #253858;
@@ -506,7 +474,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  height: 1.5rem;
   top: 11px;
   left: 70px;
   color: #253858;
@@ -542,7 +509,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  height: 1.5rem;
   top: 10px;
   left: 70px;
   color: #253858;
@@ -565,7 +531,6 @@
   align-items: center;
   list-style: none;
   width: 20.4rem;
-  height: 4.5rem;
 }
 
 .frmwk-txt {
@@ -579,7 +544,6 @@
   list-style: none;
   position: absolute;
   top: 1010px;
-  height: 1.5rem;
   left: 30px;
   right: 78px;
   color: #000;
@@ -595,7 +559,6 @@
   position: absolute;
   list-style: none;
   width: 20.4rem;
-  height: 0.1rem;
   color: #dfe1e6;
   top: 1070px;
   left: 30px;
@@ -606,8 +569,7 @@
   flex-direction: row;
   align-items: center;
   list-style: none;
-  width: 20.4rem;
-  height: 4.5rem;
+  width: 327px;
 }
 
 .skill-txt {
@@ -620,7 +582,6 @@
   line-height: 24px;
   list-style: none;
   position: absolute;
-  height: 1.5rem;
   top: 1090px;
   left: 30px;
   right: 78px;
@@ -636,8 +597,7 @@
 .separator2 {
   position: absolute;
   list-style: none;
-  width: 23rem;
-  height: 0.01rem;
+  width: 375px;
   color: #dfe1e6;
   top: 1145px;
   left: 30px;
@@ -650,12 +610,13 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  width: 23.4rem;
+  width: 100%;
   top: 4800px;
   height: 48.68rem;
   border-top-left-radius: 50px;
   background-color: #6070ff;
   background-image: url(header-shapesmobile.png);
+  background-repeat: no-repeat;
   list-style: none;
 }
 
@@ -670,9 +631,8 @@
   line-height: 52px;
   position: absolute;
   width: 50.1rem;
-  height: 3.5rem;
   color: #fff;
-  top: 100px;
+  top: 50px;
   left: 60px;
 }
 
@@ -684,10 +644,9 @@
   line-height: 28px;
   text-align: center;
   position: absolute;
-  height: 6.37rem;
   width: 20.4rem;
   top: 165px;
-  margin-left: -155px;
+  margin-left: 0;
   color: #fff;
 }
 
@@ -765,7 +724,6 @@
   padding: 12px 16px;
   position: absolute;
   width: 9.1rem;
-  height: 3rem;
   left: 24px;
   border-radius: 8px;
   background-color: #fff;
@@ -781,7 +739,6 @@
 }
 
 .gint:active {
-  opacity: 1;
   color: #fff;
   background-color: #789bf2;
   border: 1px solid #6070ff;
