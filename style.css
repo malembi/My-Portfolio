@@ -357,7 +357,6 @@
   line-height: 24px;
   width: 138px;
   color: #396df2;
-  background-color: #fff;
   cursor: pointer;
   margin-top: 20px;
 }
@@ -1165,7 +1164,7 @@
   }
 
   .icons-2 {
-    margin-top: -10px;
+    margin-top: 0px;
     margin-left: -40px;
   }
 
