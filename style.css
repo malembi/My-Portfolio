@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 24.4rem;
+    width: 24.44rem;
     height: 44.88rem;
     background-repeat: no-repeat;
     background-image: url('header-shapesmobile.png');
@@ -647,13 +647,15 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    width: 23.4rem;
+    width: 24.44rem;
     top: 4800px;
     height: 48.68rem;
+    background-repeat: no-repeat;
     border-top-left-radius: 50px;
     background-color: #6070ff;
-    background-image: url(header-shapesmobile.png);
+    background-image: url(cntctimg.png);
     list-style: none;
+    background-position: right;
   }
 
   .contact-me {
