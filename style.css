@@ -13,7 +13,7 @@
   align-items: center;
   background-color: #fff;
   height: 3rem;
-  width: 23.438rem;
+  width: 100%;
 }
 
 .logo {
@@ -38,17 +38,22 @@
   height: 0.75rem;
 }
 
+.navlist {
+  display: none;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 23.438rem;
+  width: 100%;
   height: 44.88rem;
   background-image: url('header-shapesmobile.png');
   background-color: #fff;
   border-bottom-left-radius: 60px;
   position: absolute;
   top: 48px;
+  background-repeat: no-repeat;
 }
 
 .greet {
@@ -137,7 +142,6 @@
   height: 174.25rem;
   width: 23.44rem;
   margin-top: 720px;
- 
 }
 
 .cards {
@@ -148,7 +152,6 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
-  height: 34.5rem;
   width: 20.44rem;
   margin: 70px 24px;
   gap: 12px;
@@ -187,7 +190,6 @@
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  height: 4.75rem;
   width: 18.44rem;
   margin-top: 0%;
 }
@@ -221,8 +223,6 @@
   font-style: normal;
   font-size: 12px;
   font-weight: 500;
-  height: 16px;
-  width: 29px;
   letter-spacing: 0.03rem;
   line-height: 16px;
   color: #6070ff;
@@ -235,8 +235,6 @@
   border-radius: 8px;
   background-color: #ebebff;
   padding: 4px 12px;
-  width: 45px;
-  height: 24px;
 }
 
 #Css {
@@ -247,8 +245,6 @@
   line-height: 16px;
   letter-spacing: 0.03rem;
   color: #6070ff;
-  height: 16px;
-  width: 21px;
 }
 
 .Js {
@@ -258,8 +254,6 @@
   background-color: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-  height: 24px;
-  width: 89px;
 }
 
 #Js {
@@ -269,8 +263,6 @@
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03rem;
-  height: 16px;
-  width: 65px;
   color: #6070ff;
 }
 
@@ -280,8 +272,6 @@
   background-color: #fff;
   border-radius: 8px;
   padding: 12px;
-  height: 3rem;
-  width: 7.94rem;
   bottom: 10px;
   margin-left: -170px;
   gap: 10px;
@@ -331,7 +321,6 @@
   line-height: 52px;
   color: #172b4d;
   width: 20.44rem;
-  height: 6.3rem;
 }
 
 .text-2 {
@@ -340,7 +329,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  height: 7.13rem;
   width: 20.44rem;
   margin-top: -20px;
   color: #344563;
@@ -362,7 +350,6 @@
   align-items: center;
   justify-content: space-between;
   width: 200px;
-  height: 40px;
   list-style: none;
   margin: -10px 0 0 -150px;
 }
@@ -377,11 +364,12 @@
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
-  height: 24px;
   width: 138px;
   background-color: #fff;
   color: #396df2;
+  background-color: #fff;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .Button:hover {
@@ -404,10 +392,9 @@
   border-radius: 8px;
   border: 1px solid #6070ff;
   padding: 12px;
-  margin-left: -170px;
+  margin-left: 0;
   gap: 10px;
   width: 10.3rem;
-  height: 3rem;
 }
 
 /* ------------languages----------- */
@@ -431,7 +418,6 @@
   font-style: normal;
   line-height: 24px;
   position: absolute;
-  height: 24px;
   margin-left: -220px;
   color: #000;
 }
@@ -439,7 +425,6 @@
 .down {
   position: absolute;
   width: 0.87rem;
-  height: 0.5rem;
   left: 285px;
   margin-top: 30px;
   color: #5e6c84;
@@ -500,7 +485,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  height: 24px;
   top: 11px;
   left: 70px;
   color: #253858;
@@ -536,7 +520,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  height: 24px;
   top: 10px;
   left: 70px;
   color: #253858;
@@ -559,7 +542,6 @@
   align-items: center;
   list-style: none;
   width: 20.4rem;
-  height: 4.5rem;
 }
 
 .frmwk-txt {
@@ -573,7 +555,6 @@
   list-style: none;
   position: absolute;
   top: 1010px;
-  height: 24px;
   left: 30px;
   right: 78px;
   color: #000;
@@ -589,7 +570,6 @@
   position: absolute;
   list-style: none;
   width: 20.4rem;
-  height: 0.1rem;
   color: #dfe1e6;
   top: 1070px;
   left: 30px;
@@ -601,7 +581,6 @@
   align-items: center;
   list-style: none;
   width: 327px;
-  height: 72px;
 }
 
 .skill-txt {
@@ -614,7 +593,6 @@
   line-height: 24px;
   list-style: none;
   position: absolute;
-  height: 24px;
   top: 1090px;
   left: 30px;
   right: 78px;
@@ -631,7 +609,6 @@
   position: absolute;
   list-style: none;
   width: 375px;
-  height: 1px;
   color: #dfe1e6;
   top: 1145px;
   left: 30px;
@@ -678,9 +655,9 @@
   line-height: 28px;
   text-align: center;
   position: absolute;
-  height: 6.37rem;
   width: 20.4rem;
   top: 165px;
+  margin-left: 0;
   color: #fff;
 }
 
@@ -758,7 +735,6 @@
   padding: 12px 16px;
   position: absolute;
   width: 9.1rem;
-  height: 3rem;
   left: 24px;
   border-radius: 8px;
   background-color: #fff;
@@ -768,14 +744,12 @@
 }
 
 .gint:hover {
-  opacity: 0.7;
   color: #fff;
   background-color: #fff;
   border: 1px solid #6070ff;
 }
 
 .gint:active {
-  opacity: 1;
   color: #fff;
   background-color: #789bf2;
   border: 1px solid #6070ff;

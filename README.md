@@ -61,12 +61,12 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Malembi_portfolio] <a name="about-project"></a>
 
+
 **Malembi_portfolio** is my second microverse project to be completed with HTML,CSS and JAVASCRIPT. It's simply takes you through my job description and products that I have worked on.
 
-## 🛠 Built With <a name="built-with">html&css</a>
+## 🛠 Built With <a name="built-with">HTML & CSS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>Client</summary>
@@ -100,6 +100,7 @@ After you're finished please remove all the comments and instructions!
 - **Make app dynamics using js**
 - **Have a call to action feature**
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -119,6 +120,7 @@ In order to run this project you need:
 
 -A computer pc.
 -VS CODE.
+
 -Git and Git hub.
 <!--
 Example command:
@@ -131,7 +133,9 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
 cd my-folder 
+
 git clone https://github.com/malembi/Samir-portfolio
 
 <!--
@@ -157,6 +161,9 @@ Example command:
   gem install
 ```
 --->
+-cd my-project
+
+ -gem install
 
 ### Usage
 
@@ -209,6 +216,12 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/samir-malembi-020441148/)
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Manage to deploy
+- Make it interactive.
 
 
 <!-- CONTRIBUTING -->
@@ -244,10 +257,10 @@ I would like to thank the Microverse organisation for providing me with the best
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-
 - [ ] **make it responsive**
 - [ ] **make it interactive**
 - [ ] **Be able to go live**
+
 
 <!-- LICENSE -->
 
