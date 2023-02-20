@@ -38,7 +38,6 @@
 
 .nav-bar {
   margin: 20px;
- 
 }
 
 .intro {
@@ -305,13 +304,12 @@
 
 .button:hover {
   color: #fff;
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 
 .button:active {
-
   color: #fff;
-  background-color: #2230D2;
+  background-color: #2230d2;
 }
 
 /* -------------about me------------------ */
@@ -394,13 +392,13 @@
 
 .Button:hover {
   color: #fff;
-  background-color:#6070ff ;
+  background-color: #6070ff;
   border: 1px solid #6070ff;
 }
 
 .Button:active {
   color: #fff;
-  background-color: #2230D2;
+  background-color: #2230d2;
   border: 1px solid #6070ff;
 }
 
@@ -1161,12 +1159,12 @@
 
   .button2:hover {
     color: #fff;
-    background-color: #6070FF;
+    background-color: #6070ff;
   }
 
   .button2:active {
     color: #fff;
-    background-color: #2230D2;
+    background-color: #2230d2;
   }
 
   .about-container {
