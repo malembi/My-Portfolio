@@ -4,6 +4,7 @@
   width: 100%;
   margin: 0%;
   background-color: #e5e5e5;
+  overflow-x: hidden;
 }
 
 .header {
@@ -139,6 +140,10 @@
   box-sizing: border-box;
   width: 23.44rem;
   margin-top: 690px;
+}
+
+.Cards {
+  display: none;
 }
 
 .cards {
@@ -614,8 +619,9 @@
   height: 48.68rem;
   border-top-left-radius: 50px;
   background-color: #6070ff;
-  background-image: url(header-shapesmobile.png);
+  background-image: url(cntctimg.png);
   background-repeat: no-repeat;
+  background-position: right;
   list-style: none;
 }
 
@@ -632,7 +638,7 @@
   width: 50.1rem;
   color: #fff;
   top: 50px;
-  left: 60px;
+  left: 70px;
 }
 
 .contact-txt {
@@ -645,7 +651,7 @@
   position: absolute;
   width: 20.4rem;
   top: 165px;
-  margin-left: 0;
+  margin-left: -150px;
   color: #fff;
 }
 
@@ -760,7 +766,7 @@
 
 @media screen and (min-width: 768px) {
   .body {
-    width: 90rem;
+    width: 100%;
     height: 320.3rem;
     background: #f4f5f7;
   }
@@ -771,12 +777,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90rem;
+    width: 93rem;
     height: 45.25rem;
     background-image: url('Images./Header bg.png');
     background-color: #fff;
     background-repeat: no-repeat;
     border-bottom-left-radius: 100px;
+    background-size: 100%;
     position: absolute;
     top: 76px;
   }
@@ -787,7 +794,7 @@
     justify-content: space-between;
     align-items: baseline;
     background-color: #fff;
-    width: 90rem;
+    width: 93rem;
     height: 5rem;
   }
 
@@ -819,7 +826,7 @@
     gap: 80px;
     width: 16.18rem;
     height: 2.5rem;
-    margin-right: 130px;
+    margin-right: 242px;
   }
 
   .navlink {
@@ -893,7 +900,7 @@
     position: absolute;
     width: 90rem;
     height: 168.4rem;
-    left: 0;
+    left: 20px;
   }
 
   .Cards {
@@ -944,12 +951,12 @@
   .info {
     width: 31rem;
     font-size: 16px;
-    margin-top: -5px;
+    margin-top: -30px;
     margin-left: 0;
   }
 
   .languages {
-    margin-top: -50px;
+    margin-top: -10px;
     margin-left: -10px;
   }
 
@@ -1125,7 +1132,7 @@
 
   .about-container {
     position: absolute;
-    width: 90rem;
+    width: 93rem;
     height: 58.87rem;
     top: 3535px;
     border-top-right-radius: 78px;
@@ -1187,7 +1194,7 @@
   }
 
   .down {
-    margin-left: 1000px;
+    margin-left: 1040px;
     margin-top: 8px;
   }
 
@@ -1283,7 +1290,7 @@
   /* ----------------contact form------------------ */
   .contact-form {
     position: absolute;
-    width: 90rem;
+    width: 93rem;
     height: 52.87rem;
     top: 4270px;
     background: #6070ff;
