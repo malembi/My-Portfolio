@@ -277,7 +277,6 @@
   font-style: normal;
   color: #396df2;
   width: 50%;
- 
 }
 
 .button:hover {
@@ -661,7 +660,6 @@
   margin: 22px auto auto 40px;
   cursor: pointer;
   border: none;
-  
 }
 
 .gint:hover {
@@ -723,9 +721,8 @@
     margin-left: 10%;
     width: 13.64%;
     color: #6070ff;
-   animation: logo 2s ease-in-out 0s  normal none;
+    animation: logo 2s ease-in-out 0s  normal none;
   }
-
 
   .nav-bar {
     display: none;
@@ -885,6 +882,7 @@
     margin: 2em;
     border-radius: 8px;
   }
+
   .title2 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -1072,7 +1070,6 @@
     margin-left: 550px;
   }
 
-
   .lang {
     margin: 1em;
   }
@@ -1195,5 +1192,4 @@
     margin: 1em 0 0 33em;
     width: 11.5%;
   }
-
 }
