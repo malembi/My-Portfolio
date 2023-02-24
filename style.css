@@ -694,7 +694,10 @@
     margin: 0%;
     padding: 0%;
   }
-
+@keyframes logo {
+    from{margin-left: 20px}
+    to{margin-left: 250px}
+  }
   .body {
     background: #f4f5f7;
   }
