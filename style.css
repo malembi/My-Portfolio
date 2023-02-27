@@ -15,7 +15,8 @@
   width: 100%;
 }
 
-.logo {
+.logo,
+#logo {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -25,7 +26,7 @@
   align-items: center;
   text-align: center;
   text-decoration: none;
-  margin: 20px;
+  margin: 10px;
   width: 4.75rem;
   color: #6070ff;
   height: 1.25rem;
@@ -48,6 +49,7 @@
   background-image: url('header-shapesmobile.png');
   background-color: #fff;
   background-repeat: no-repeat;
+  background-size: 100%;
   border-bottom-left-radius: 60px;
   top: 46px;
 }
@@ -60,15 +62,14 @@
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  width: 327px;
-  height: 9.37rem;
+  width: 80%; 
   margin: 20px;
   order: 0;
   color: #172b4d;
 }
 
 .text {
-  width: 20.43rem;
+  width: 68%;
   height: 9.12rem;
   font-family: sans-serif, 'Poppins';
   font-style: normal;
@@ -76,6 +77,7 @@
   font-size: 16px;
   line-height: 24px;
   margin: 0 20px;
+  width: 95%;
   order: 1;
   color: #344563;
 }
@@ -85,8 +87,9 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  margin-left: 10px;
+  margin: -5px 10px;
   text-decoration: none;
+  width: 60%;
   order: 2;
   color: #7f8cff;
 }
@@ -95,11 +98,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 170.17px;
+  width: 38%;
   flex: none;
   flex-grow: 0;
   list-style: none;
-  margin-left: -25px;
+  margin: 20px 0 0 -25px;
   gap: 8px;
   order: 3;
 }
@@ -135,8 +138,9 @@
   display: grid;
   grid-template-columns: 1fr;
   box-sizing: border-box;
-  width: 23.44rem;
+  width: 100%;
   margin-top: 60px;
+  
 }
 
 .Cards {
@@ -151,32 +155,30 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
-  width: 20.44rem;
+  width: 85%;
   margin: 70px 24px;
   gap: 12px;
   background-color: #fff;
 }
 
 .image {
-  width: 18.44rem;
-  height: 13.7rem;
-}
-
+  width: 100%;
+  height: auto;
+} 
 .title {
   font-family: sans-serif, "Poppins";
   font-weight: 700;
-  font-size: 32px;
+  font-size: 34px;
   font-style: normal;
-  width: 18.44rem;
   line-height: 44px;
-  margin-top: 0;
+  width: 100%;
   color: #172b4d;
 }
 
 .frame {
-  margin: -30px 0 0 -50px;
-  width: 14.75rem;
-  padding: 8px;
+  margin: -2.5em 0 0 -8.5em;
+  width: 50%;
+
 }
 
 .info {
@@ -186,8 +188,8 @@
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  width: 18.44rem;
-  margin-top: 0%;
+  width: 97%;
+  margin-top: -1em;
 }
 
 .languages {
@@ -195,7 +197,7 @@
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin: -20px 0 0 -90px;
+  margin: -20px 0 0 -80px;
   padding: 10px;
   gap: 8px;
 }
@@ -265,7 +267,7 @@
   border-radius: 8px;
   padding: 12px;
   bottom: 10px;
-  margin-left: -170px;
+  margin-left: -140px;
   gap: 10px;
   cursor: pointer;
   text-align: center;
@@ -685,6 +687,7 @@
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
+  width: 11.1%;
 }
 
 /* --------------------DESKTOP VERSION--------------------- */
@@ -1190,6 +1193,7 @@
 
   .gint {
     margin: 1em 0 0 33em;
-    width: 11.5%;
+    width: 11.5%;  
+
   }
 }
