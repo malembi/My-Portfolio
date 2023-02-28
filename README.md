@@ -188,7 +188,9 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using the link provided:
+
+https://malembi.github.io/My-Portfolio/
 
 <!--
 Example:
