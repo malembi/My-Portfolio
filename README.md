@@ -105,7 +105,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://malembi.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,9 +188,14 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using the link provided:
+You can deploy this project by:
+-Go to the settings option on your git hub.
+-Scroll to the pages section.
+-Deploy from the main branch of your repository.
+-Deploy with github pages to make the project live for viewers.
 
-https://malembi.github.io/My-Portfolio/
+
+
 
 <!--
 Example:
