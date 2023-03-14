@@ -17,4 +17,17 @@ btn.onclick = function open() {
   modal.style.backgroundColor = 'transparent';
 };
 
-
+/ if the user clicks the "X", close the modal
+span.onclick = function close() {
+  modal.style.display = 'none';
+};
+//  write function to not show modal contents when,list items are clicked
+ptf.onclick = function portfolio() {
+  modal.style.display = 'none';
+};
+abt.onclick = function about() {
+  modal.style.display = 'none';
+};
+cnt.onclick = function contact() {
+  modal.style.display = 'none';
+};
