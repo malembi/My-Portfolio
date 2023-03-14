@@ -17,7 +17,7 @@ btn.onclick = function open() {
   modal.style.backgroundColor = 'transparent';
 };
 
-/ if the user clicks the "X", close the modal
+// if the user clicks the "X", close the modal
 span.onclick = function close() {
   modal.style.display = 'none';
 };
