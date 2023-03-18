@@ -761,18 +761,16 @@
   margin: -1.2em 0 0 -4em;
 }
 
-.canopy {
-  margin: 0 0 0 -18.5em;
+.m-canopy {
+  margin: 0 0 0 -15em;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
   color: #344563;
 }
 
 .m-dot {
-  margin: -1.5em 0 0 -9em;
+  margin: -1.7em 0 0 -8em;
 }
 
 .m-role {
@@ -786,7 +784,7 @@
 }
 
 .m-dot2 {
-  margin: -1.5em 0 0 8em;
+  margin: -1.5em 0 0 6.5em;
 }
 
 .m-year {
@@ -796,7 +794,7 @@
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin: -1.8em 0 0 16em;
+  margin: -1.8em 0 0 13em;
 }
 
 .m-image {
