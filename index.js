@@ -169,7 +169,7 @@ cards.forEach((card) => {
   mTitle.innerText = card.title;
 
   const comp = document.createElement('p');
-  comp.classList.add('canopy');
+  comp.classList.add('m-canopy');
   modalCard.append(comp);
   comp.innerText = card.company;
 

@@ -761,18 +761,16 @@
   margin: -1.2em 0 0 -4em;
 }
 
-.canopy {
-  margin: 0 0 0 -18.5em;
+.m-canopy {
+  margin: -0.5em 0 0 -57.5em;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
   color: #344563;
 }
 
 .m-dot {
-  margin: -1.5em 0 0 -9em;
+  margin: 0em 0 0 -9em;
 }
 
 .m-role {
@@ -782,7 +780,7 @@
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin: -1.8em 0 0 -1em;
+  margin: -0.8em 0 0 -1em;
 }
 
 .m-dot2 {
