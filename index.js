@@ -205,9 +205,18 @@ cards.forEach((card) => {
   Details.classList.add('lorem');
   modalCard.append(Details);
   Details.innerText = card.details;
+  
+  const techs = document.createElement('ul');
+  techs.classList.add('m-Tags');
+  modalCard.append(techs);
 
- 
-
+  for (let j = 0; j < card.technologies.length; j += 1) {
+    const mTech = document.createElement('li');
+    mTech.classList.add('m-tag');
+    mTech.textContent = card.technologies[j];
+    techs.append(mTech);
+  }
+  
   const mBtn = document.createElement('button');
   mBtn.classList.add('m-btn');
   modalCard.append(mBtn);
