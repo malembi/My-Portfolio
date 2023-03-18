@@ -169,7 +169,7 @@ cards.forEach((card) => {
   mTitle.innerText = card.title;
 
   const comp = document.createElement('p');
-  comp.classList.add('canopy');
+  comp.classList.add('m-canopy');
   modalCard.append(comp);
   comp.innerText = card.company;
 
@@ -240,76 +240,62 @@ cards.forEach((card) => {
   mBtn2.append(bImg2);
 });
 
-// const popup = (id,title,description,image,technologies,liveVersion,githubLink) =>
-// `<div class="overlay" id="popup-${id}">
-// <div class="popup-cont">
-// <div class="popupImgCont">
-// <img class="popup-img" src="popup-${id}"/>
-// </div>
-// <div class="closeBtnContainer">
-// <span class="closeBtn" id="closeBtn-${id}">
-// <img src="Images./2.png"/>
-// </span>
-// <img class="desktopCloseBtn" src="" id="deskCloseBtn-${id}"/>
-// </div>
-// <div class="popDiv">
-//         <div class="popDiv1">
-//           <h1 class="popTitle">${title}</h1>
-//           <div class="popDiv2">
-//           <p class="popPara">${description}</p>
-//         </div>
-//           <ul class="techList">
-//             <li class="techItem">${technologies[0]}</li>
-//             <li class="techItem">${technologies[1]}</li>
-//             <li class="techItem">${technologies[2]}</li>
-//           </ul>
-//         </div>
+//----------form validation------------//
 
-//         <div class="popDiv3 popupBtnContainer">
-//           <button class="popupBtn">
-//             <a href="${liveVersion}">See Live <img src="Images./Icon.png"/></a>
+function ReadElement(selected) {
+  return document.querySelector(selected);
+}
 
-//           </button>
-//           <button class="popupBtn">
-//             <a href="${githubLink}">See Source <img src="Images./cat.png"/></a>
+const name = ReadElement('#name');
+const email = ReadElement('#email');
+const message = ReadElement('#msg');
+const validator = ReadElement('.validator-input');
+const submitbtn = ReadElement('#gint');
 
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   </div>`;
+let visitorName;
+let visitorEmail;
+let visitorMessage;
+let visitorData = [];
 
-// cards.forEach((card) => {
-// works.innerHTML += popup(
-//   card.id,
-//   card.title,
-//   card.description,
-//   card.image,
-//   card.technologies,
-//   card.liveVersion,
-//   card.githubLink,
-// );
-// });
+function getUpdatedInput(selected) {
+  function alphaFunction() {
+    visitorName = name.value;
+    visitorEmail = email.value;
+    visitorMessage = message.value;
+    visitorData = [visitorName, visitorEmail, visitorMessage];
+    localStorage.setItem('visitorData', visitorData);
+  }
+  selected.addEventListener('change', alphaFunction);
+}
 
-// cards.forEach((card) => {
-//   const showBtn = document.getElementById(`card-${card.id}`);
-//   showBtn.addEventListener('click',() => {
-//     const showPop = document.getElementById(`popup-${card.description}`);
-//     showPop.style.display = 'flex';
-//   });
-// });
+visitorName = getUpdatedInput(name);
+visitorEmail = getUpdatedInput(email);
+visitorMessage = getUpdatedInput(message);
 
-// cards.forEach((card) => {
-//   const closeBtn = document.getElementById(`closeBtn-${card.id}`);
-//   closeBtn.addEventListener('click', () => {
-//     const showpop2 = document.getElementById(`popup-${card.id}`);
-//     showpop2.style.display = 'none';
-//   });
-// });
-// cards.forEach((card) => {
-//   const deskCloseBtn = document.getElementById(`deskCloseBtn-${card.id}`);
-//   deskCloseBtn.addEventListener('click', () => {
-//     const showpop3 = document.getElementById(`popup-${card.id}`);
-//     showpop3.style.display = 'none';
-//   });
-// });
+const alphaFormData = localStorage.getItem('visitorData');
+const alphaFormDataArray = alphaFormData.split(',');
+
+if (alphaFormDataArray.length > 0) {
+  [name.value, email.value, message.value] = alphaFormDataArray;
+}
+
+function EmailValidation(e) {
+  const visitorEmail = email.value;
+  let text;
+  if (visitorEmail !== visitorEmail.toLowerCase() || visitorEmail === '') {
+    text = 'Email is required and email has to be in lowercase';
+    validator.innerHTML = text;
+    validator.classList.remove('validator-green');
+    validator.classList.add('validator-red');
+    submitbtn.style.marginTop = '20px';
+    e.preventDefault();
+  } else {
+    text = 'Email has been inserted in lowercase as required';
+    validator.innerHTML = text;
+    validator.classList.remove('validator-red');
+    validator.classList.add('validator-green');
+    submitbtn.style.marginTop = '20px';
+  }
+}
+submitbtn.addEventListener('submit', EmailValidation);
+// Form Validation and Local Storage END here
