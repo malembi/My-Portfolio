@@ -242,60 +242,25 @@ cards.forEach((card) => {
 
 //----------form validation------------//
 
-function ReadElement(selected) {
-  return document.querySelector(selected);
-}
+function validateForm() {
+  // Get the values of the form fields
+  const name = document.forms["contactForm"]["name"].value;
+  const email = document.forms["contactForm"]["email"].value;
+  const message = document.forms["contactForm"]["msg"].value;
 
-const name = ReadElement('#name');
-const email = ReadElement('#email');
-const message = ReadElement('#msg');
-const validator = ReadElement('.validator-input');
-const submitbtn = ReadElement('#gint');
-
-let visitorName;
-let visitorEmail;
-let visitorMessage;
-let visitorData = [];
-
-function getUpdatedInput(selected) {
-  function alphaFunction() {
-    visitorName = name.value;
-    visitorEmail = email.value;
-    visitorMessage = message.value;
-    visitorData = [visitorName, visitorEmail, visitorMessage];
-    localStorage.setItem('visitorData', visitorData);
+  // Check if name is empty
+  if (name.length === 0 || email.length === 0 || message.length === 0) {
+    const error = document.createElement('small');
+    error.textContent = 'Please fill in all fields';
+    error.classList.add('text-red-500');
+    contactForm.insertBefore(error, contactForm.lastChild);
   }
-  selected.addEventListener('change', alphaFunction);
-}
 
-visitorName = getUpdatedInput(name);
-visitorEmail = getUpdatedInput(email);
-visitorMessage = getUpdatedInput(message);
-
-const alphaFormData = localStorage.getItem('visitorData');
-const alphaFormDataArray = alphaFormData.split(',');
-
-if (alphaFormDataArray.length > 0) {
-  [name.value, email.value, message.value] = alphaFormDataArray;
-}
-
-function EmailValidation(e) {
-  const visitorEmail = email.value;
-  let text;
-  if (visitorEmail !== visitorEmail.toLowerCase() || visitorEmail === '') {
-    text = 'Email is required and email has to be in lowercase';
-    validator.innerHTML = text;
-    validator.classList.remove('validator-green');
-    validator.classList.add('validator-red');
-    submitbtn.style.marginTop = '20px';
-    e.preventDefault();
-  } else {
-    text = 'Email has been inserted in lowercase as required';
-    validator.innerHTML = text;
-    validator.classList.remove('validator-red');
-    validator.classList.add('validator-green');
-    submitbtn.style.marginTop = '20px';
+  // Check if email is empty or not in the correct format
+  if (email !== email.toLowerCase() || !/\S+@\S+\.\S+/.test(email)) {
+  const error = document.createElement('small');
+  error.textContent = 'Please enter a lowercase email';
+  error.classList.add('text -red-500','block')
+  contactForm.insertBefore(error, contactForm.lastChild);
   }
 }
-submitbtn.addEventListener('submit', EmailValidation);
-// Form Validation and Local Storage END here

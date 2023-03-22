@@ -259,8 +259,7 @@ I would like to thank the Microverse organisation for providing me with the best
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-https://spdx.org/licenses/MIT.html
+This project is [MIT] Licensed
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
